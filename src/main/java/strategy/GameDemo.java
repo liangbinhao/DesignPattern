@@ -3,7 +3,7 @@ package strategy;
 public class GameDemo {
     public static void main(String[] args) {
         Player player = new Player(new Position(100, 100));
-        Enemy enemy = new Enemy("兽人战士", new Position(0, 0));
+        Enemy enemy = new Enemy("兽人战士", new Position(91, 100));
 
         System.out.println("==========游戏开始==========");
 
