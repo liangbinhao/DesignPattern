@@ -59,7 +59,7 @@ public class Enemy {
     }
 
     public void heal(int amount) {
-        health = Math.max(health + amount, maxHealth);
+        health = Math.min(health + amount, maxHealth);
         System.out.println(this.name + " 回复 " + amount + " 点生命值，当前生命：" + health);
     }
 
@@ -67,6 +67,11 @@ public class Enemy {
     public void setSpeed(double speed) {
         this.speed = speed;
         System.out.println(this.name + " 的移动速度已调整为 " + speed);
+    }
+
+    public void setHealth(double health) {
+        this.health = health;
+        System.out.println(this.name + " 的生命已调整为 " + health);
     }
 
     public double getDistanceTo(Player player) {
