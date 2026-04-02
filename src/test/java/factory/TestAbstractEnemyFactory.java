@@ -1,18 +1,5 @@
-package Factory;
+package factory;
 
-import factory.BossEnemy;
-import factory.DungeonEnemyFactory;
-import factory.DungeonOgre;
-import factory.EnemyThemeFactory;
-import factory.ForestArcher;
-import factory.ForestEnemyFactory;
-import factory.ForestGoblin;
-import factory.GameLevel;
-import factory.MeleeEnemy;
-import factory.RangedEnemy;
-import factory.ShadowMage;
-import factory.Skeleton;
-import factory.Treant;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

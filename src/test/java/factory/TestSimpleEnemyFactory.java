@@ -1,10 +1,5 @@
-package Factory;
+package factory;
 
-import factory.Archer;
-import factory.Enemy;
-import factory.Goblin;
-import factory.Ogre;
-import factory.SimpleEmemyFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
